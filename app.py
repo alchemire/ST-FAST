@@ -22,7 +22,7 @@ targets = ["setona", "versicolor", "virginica"]
 if st.sidebar.button("Predict"):
     # show
     st.write("## Input Value")
-    iris_df = pd.DataFrame(iris, index={"data"})
+    iris_df = pd.DataFrame(iris, index=["data"])
     st.write(iris_df)
 
     # do
